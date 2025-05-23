@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": ""
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,6 @@
   "type": "commonjs",
   "devDependencies": {
     "eslint": "^9.27.0",
-    "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "pretty-quick": "^4.1.1",
     "simple-git-hooks": "^2.13.0",
