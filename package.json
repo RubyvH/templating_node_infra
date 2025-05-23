@@ -1,0 +1,24 @@
+{
+  "name": "mynode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3",
+    "pretty-quick": "^4.1.1",
+    "simple-git-hooks": "^2.13.0",
+    "typescript": "^5.8.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx pretty-quick --staged"
+  }
+}
